@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let palavra=prompt("digite uma palavra")
+function contar(x,y){
+    const vogais="aáàãâeéêiíoõóuúyý"
+    for(let letras of x){
+     if(vogais.includes(letras)){
+        y=y+1
+    }
+    
+}
+   return y
+    }
+    
+console.log(palavra+" tem "+contar(palavra,0)+" vogais")
+
+
+
+
+    </script>
+</body>
+</html>

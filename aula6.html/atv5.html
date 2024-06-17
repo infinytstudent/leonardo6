@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+const soma=function(a,b){
+    return a/1+b/1
+}
+const subtração=function(a,b){
+    return a-b
+}
+const multiplicação=function(a,b){
+    return a*b
+}
+const divisão=function(a,b){
+    return a/b
+}
+let num1=prompt("digite o primeiro número")
+let num2=prompt("digite o segundo número")
+let operacao=prompt("digite o sinal da opração")
+
+if(operacao=="+"){
+    console.log(soma(num1,num2))
+}
+else if(operacao=="-"){
+    console.log(subtração(num1,num2))
+}
+else if(operacao=="*"){
+    console.log(multiplicação(num1,num2))
+}
+else if(operacao=="/"){
+    console.log(divisão(num1,num2))
+}
+
+    </script>
+</body>
+</html>

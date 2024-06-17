@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function calculo(a,b){
+    return a*b+a*b*0.03}
+    let prestacao=prompt("insíra o valor das prestações em reais")
+    let dias=prompt("digite o número de dias")
+    console.log("R$"+calculo(prestacao,dias)+" a pagar")
+while(dias!=0){
+    let pagas=prompt("digite quantas prestações pagou")
+if(dias>0){
+    dias=dias-pagas
+    console.log("R$"+calculo(prestacao,dias)+" a pagar")
+}
+}
+    </script>
+</body>
+</html>
